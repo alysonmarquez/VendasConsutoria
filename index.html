@@ -20,6 +20,7 @@
             text-decoration: none;
             list-style: none;
         }
+
         :root{
             --bg-color: #ececec;
             --second-bg-color: #ffffff;
@@ -59,12 +60,14 @@
         }
 
         .hero-text h2{
+            align-items: center;
             font-size: var(--h2-font);
             font-weight: 700;
             margin-bottom: 20px;
         }
 
         .hero-text p{
+            align-items: center;
             font-size: var(--p-font);
             color: var(--second-color);
             line-height: 1.7;
@@ -141,6 +144,7 @@
                 height: 280px;
             }
         }
+    @keyframes pulse {0%{transform:scale(1);}50%{transform:scale(1.1);}100%{transform:scale(1);}}
     </style>
 </head>
 
@@ -180,26 +184,31 @@
             Um perfil mal organizado pode fazer você perder oportunidades sem nem saber. Já um perfil otimizado te coloca na frente, transmite profissionalismo e aumenta a taxa de respostas.</p>
     </section>
 
-        <div class="service-box">
+        <div class="service-box" style="position:relative; margin-top:60px;">
+        <div style="position:absolute; top:-10px; right:-10px; background:var(--main-color); color:#fff; padding:6px 12px; font-weight:600; border-radius:6px; font-size:0.9rem; animation:pulse 1.5s infinite;">PROMOÇÃO</div>
         <h3>Pacote Completo – LinkedIn + Currículo</h3>
         <p>Otimização completa do LinkedIn + Currículo profissional pronto para recrutadores.</p>
         <div class="price"><s style='color:gray; font-size:25px;'>R$ 59,90</s> → R$ 19,90</div>
         <a href="https://wa.me/5586999336352" class="btn-whats"><i class='bx bxl-whatsapp'></i> Falar no WhatsApp</a>
     </div>
 
-    <div class="service-box">
+    <div class="service-box" style="position:relative;">
         <h3>Pacote Premium – Portfólio + Consultoria</h3>
+        <div style="position:absolute; top:-10px; right:-10px; background:#25a3d3; color:#fff; padding:6px 12px; font-weight:600; border-radius:6px; font-size:0.9rem; animation:pulse 1.5s infinite; z-index:10;">MAIS VENDIDO</div>
+        <p> – Portfólio + Consultoria</h3>
         <p>Eu analiso, melhoro e reorganizo seu portfólio para deixá-lo profissional e convincente para recrutadores de tecnologia, incluindo sugestões de projetos, descrição técnica e padronização visual.</p>
         <p style="margin-top:10px;">Inclui também uma consultoria de carreira (30 minutos) para orientar seus próximos passos.</p>
-        <div class="price">R$ 39,90</div>
+        <div class="price"><s style='color:gray; font-size:25px;'>R$ 89,90</s> → R$ 39,90</div>
         <a href="https://wa.me/5586999336352" class="btn-whats"><i class='bx bxl-whatsapp'></i> Solicitar Pacote</a>
     </div>
 
-    <div class="service-box">
+    <div class="service-box" style="position:relative;">
         <h3>Pacote Ultimate – Presença Profissional Completa</h3>
+        <div style="position:absolute; top:-10px; right:-10px; background:#3cbb5d; color:#fff; padding:6px 12px; font-weight:600; border-radius:6px; font-size:0.9rem; animation:pulse 1.5s infinite; z-index:10;">RECOMENDADO</div>
+        <p> – Presença Profissional Completa</h3>
         <p>LinkedIn + Currículo + Portfólio + Consultoria completa. Tudo organizado e estruturado focando 100% em te posicionar como dev profissional.</p>
         <p style="margin-top:10px;">O pacote mais completo para quem quer acelerar a conquista da primeira vaga.</p>
-        <div class="price">R$ 69,90</div>
+        <div class="price"><s style='color:gray; font-size:25px;'>R$ 129,90</s> → R$ 69,90</div>
         <a href="https://wa.me/5586999336352" class="btn-whats"><i class='bx bxl-whatsapp'></i> Quero o Ultimate</a>
     </div>
         <a href="https://wa.me/5586999336352" class="btn-whats"><i class='bx bxl-whatsapp'></i> Falar no WhatsApp</a>
